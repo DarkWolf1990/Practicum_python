@@ -12,13 +12,13 @@
 
 x = int (input(" введите целое число координаты Х: "))
 y = int (input(" введите целое число координаты y: "))
-x == 0
-y == 0
+x != 0
+y != 0
 def enter_coordinate(cor1, cor2): 
     if cor1 > 0 and cor2 > 0: print("Диапазон находится в 1 четверти") 
     elif cor1 < 0 and cor2 > 0: print("Диапазон находится во 2 четверти") 
     elif cor1 < 0 and cor2 < 0: print("Диапазон находится в 3 четверти") 
     elif cor1 > 0 and cor2 > 0: print("Диапазон находится в 4 четверти") 
- 
+    else: print(f"cor1,cor2 = {0} Вы ввели ноль, введите другое число")
 enter_coordinate(x, y)
 
