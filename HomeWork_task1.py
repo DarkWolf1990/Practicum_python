@@ -5,6 +5,8 @@
 # - 6 -> да
 # - 7 -> да
 # - 1 -> нет
+from turtle import clear
+clear
 dayWeek = input(" введите число дня недели: ")
 monday = "1"
 tuesday = "2"
