@@ -5,29 +5,31 @@
 # - 6 -> да
 # - 7 -> да
 # - 1 -> нет
-from turtle import clear
-clear
-dayWeek = input(" введите число дня недели: ")
-monday = "1"
-tuesday = "2"
-wednesday = "3"
-thusday = "4"
-friday = "5"
-saturday = "6"
-sunday = "7"
-if dayWeek == monday:
-  print("monday")
-elif dayWeek ==tuesday:
-  print("tuesday")
-elif dayWeek == wednesday:
-  print("wednesday")
-elif dayWeek == thusday:
-  print("thusday")
-elif dayWeek == friday:
-  print("friday")
-elif dayWeek == saturday:
-  print("saturday")
-else:
-  dayWeek == sunday
-  print("sunday")
+
+num = int(input(" введите число дня недели: "))
+def dayWeek(num):
+  monday = 1
+  tuesday = 2
+  wednesday = 3
+  thusday = 4
+  friday = 5
+  saturday = 6
+  sunday = 7
+  if num == monday:
+    print("Нет")
+  elif num ==tuesday:
+    print("нет")
+  elif num == wednesday:
+    print("нет")
+  elif num == thusday:
+    print("нет")
+  elif num == friday:
+    print("нет")
+  elif num == saturday:
+    print("Да")
+  else:
+    num == sunday
+    print("Да")
+    
+dayWeek(num)
 
