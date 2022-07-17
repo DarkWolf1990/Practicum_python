@@ -6,5 +6,11 @@
 #   - 0,56 -> 11
 
 
-
-print(sum(map(int, list(input('Введите число -> ')))))
+n = input ("Введите числа ->>>> ") 
+def  getNums (n): 
+    result = 0 
+    for i in range (len(n)): 
+         if n[i].isdigit(): 
+            result += int (n[i]) 
+    print(result) 
+getNums(n)
