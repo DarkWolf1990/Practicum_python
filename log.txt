@@ -1,7 +1,7 @@
-2022-07-31 21:03:29,828 -DEBUG - ^)^
-2022-07-31 21:03:29,829 -DEBUG - <function Reader at 0x000002757D514EE0>
-2022-07-31 21:03:29,829 -DEBUG - <function Intface at 0x000002757D514CA0>
-2022-07-31 21:03:29,830 -ERROR - ZerodivisionError
+2022-07-31 21:11:43,914 -DEBUG - ^)^
+2022-07-31 21:11:43,914 -DEBUG - <function Reader at 0x00000221305A4EE0>
+2022-07-31 21:11:43,914 -DEBUG - <function Intface at 0x00000221305A4CA0>
+2022-07-31 21:11:43,914 -ERROR - ZerodivisionError
 Traceback (most recent call last):
   File "c:\Users\white\OneDrive\Рабочий стол\git_education\Python_practicum\HomeWork\Lesson7-Calc\logger.py", line 28, in <module>
     1 / 0

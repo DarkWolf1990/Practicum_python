@@ -16,3 +16,7 @@
 2022-07-31 21:03:29,828 - logger - DEBUG - ^)^
 2022-07-31 21:03:29,829 - logger - DEBUG - <function Reader at 0x000002757D514EE0>
 2022-07-31 21:03:29,829 - logger - DEBUG - <function Intface at 0x000002757D514CA0>
+2022-07-31 21:11:43,914 - logger - DEBUG - ^)^
+2022-07-31 21:11:43,914 - logger - DEBUG - <function Reader at 0x00000221305A4EE0>
+2022-07-31 21:11:43,914 - logger - DEBUG - <function Intface at 0x00000221305A4CA0>
+Test string
